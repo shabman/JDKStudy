@@ -33,14 +33,7 @@ class Time
     {
         hour = ((h >= 0 && h < 24) ? h : 0);
         minute = ((m >= 0 && m < 60) ? m : 0);
-        second = ((s >= 0 && s < 60) ? s : 0);
-        /*
-        IF HOUR IS LESS THAN OR EQUAL TO 0
-        AND HOUR IS LESS THAN 24
-        THEN USE THAT NUMBER ? H
-        ELSE SET TO DEFAULT 0
-        */
-        
+        second = ((s >= 0 && s < 60) ? s : 0);        
     }
     public String toMilitary()
     {
