@@ -13,11 +13,11 @@ public class ArrTable
     public static void main(String[] args)
     {
         System.out.println("Index\tValue");
-        int mum_is_annoying[] = {1,2,3,4,5,6,7,8,9,0};
+        int arr[] = {1,2,3,4,5,6,7,8,9,0};
         
-        for (int counter = 0; counter < mum_is_annoying.length; counter++)
+        for (int counter = 0; counter < arr.length; counter++)
         {
-            System.out.println(counter + "\t" + mum_is_annoying[counter]);
+            System.out.println(counter + "\t" + arr[counter]);
         }
     }
 }
