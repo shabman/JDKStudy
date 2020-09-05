@@ -7,7 +7,7 @@ package userinterfaces;
 
 /**
  *
- * @author mma1i
+ * @author PurpleGuy
  */
 public enum Enum
 {
